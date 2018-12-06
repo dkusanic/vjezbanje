@@ -12,7 +12,6 @@ namespace zad1
         {
             int N = 0;
             int M = 0;
-            int Z = 0;
             Console.WriteLine("Unesi broj N:");
             N = int.Parse(Console.ReadLine());
             Console.WriteLine("Unesi broj M:");
