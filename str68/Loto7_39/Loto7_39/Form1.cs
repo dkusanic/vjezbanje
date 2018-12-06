@@ -13,15 +13,11 @@ namespace Loto7_39
     public partial class FrmLoto : Form
     {
         private Loto loto;
-        public Loto()
-        {
-            InitializeComponent();
-            loto = new Loto();
-        }
         public FrmLoto()
         {
             InitializeComponent();
-        }
+            loto = new Loto();
+    }
 
         private void btnUplati_Click(object sender, EventArgs e)
         {
