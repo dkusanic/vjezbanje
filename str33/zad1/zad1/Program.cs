@@ -10,6 +10,21 @@ namespace zad1
     {
         static void Main(string[] args)
         {
+            int N = 0;
+            int M = 0;
+            Console.WriteLine("Unesi broj N:");
+            N = int.Parse(Console.ReadLine());
+            Console.WriteLine("Unesi broj M:");
+            M = int.Parse(Console.ReadLine());
+            for (int i = 0; i < N; i++)
+            {
+                Console.WriteLine("crno");
+            }
+            for (int i = 0; i < M; i++)
+            {
+                Console.WriteLine("bijelo");
+            }
+            Console.ReadLine();
         }
     }
 }
