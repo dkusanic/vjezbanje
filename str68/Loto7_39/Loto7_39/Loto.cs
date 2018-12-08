@@ -58,6 +58,7 @@ namespace Loto7_39
                 {
                     DobitniBrojevi.Add(broj);
                 }
+                DobitniBrojevi.Sort();
             }
         }
 
